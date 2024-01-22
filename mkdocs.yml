@@ -1,0 +1,55 @@
+repo_name: DOPH
+# Project information
+site_name: DOPH
+site_url: http://devops-project-hub.io
+site_description: A curated list of DevOps project ideas spanning across different tools.
+site_author: Ella Adeka
+
+# Repository information
+repo_url: https://github.com/ella-adeka/DOPH.git
+edit_uri: https://github.com/ella-adeka/DOPH.git/blob/master
+
+# Navigation
+nav:
+  - Welcome: "index.md"
+  - Projects: "list.md"
+  - Contribution: "contribution.md"
+
+# Copyright
+copyright: Copyright &copy; 2023 DevOps Projects Hub
+
+
+# Theme
+theme:
+  name: material
+  language: en
+  locale: en
+  font: false
+  logo: assets/logo.png
+  palette:
+    scheme: default
+    primary: black
+    accent: blue
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil-circle
+    view: material/eye
+
+# Customisation
+extra:
+  # Font
+  font:
+    text: Roboto Slab
+    code: Source Code Pro
+  feature:
+    tabs: true
+
+extra_css:
+  - css/extra.css
+  - css/second_extra.css
+
+plugins:
+  - search
