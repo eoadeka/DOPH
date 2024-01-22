@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>http://devops-project-hub.io/</loc>
+         <loc>http://devops-projects-hub.io/</loc>
          <lastmod>2024-01-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://devops-project-hub.io/contribution/</loc>
+         <loc>http://devops-projects-hub.io/contribution/</loc>
          <lastmod>2024-01-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://devops-project-hub.io/list/</loc>
+         <loc>http://devops-projects-hub.io/list/</loc>
          <lastmod>2024-01-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
