@@ -1,23 +1,29 @@
-repo_name: DOPH
 # Project information
 site_name: DOPH
+# docs_dir: './docs'
 site_url: http://devops-projects-hub.io
 site_description: A curated list of DevOps project ideas spanning across different tools.
 site_author: Ella Adeka
 
 # Repository information
+repo_name: DOPH
 repo_url: https://github.com/ella-adeka/DOPH.git
-edit_uri: https://github.com/ella-adeka/DOPH.git/blob/master
+edit_uri: https://github.com/ella-adeka/DOPH.git/blob/main
 
 # Navigation
 nav:
   - Welcome: "index.md"
-  - Projects: "list.md"
+  - Projects:
+    - ansible: topics/ansible/README.md
+    - aws: topics/aws/README.md
+    - cloud: "list.md"
+    - docker: "list.md"
+    - gcp: topics/gcp/README.md
+    - jenkins: "list.md"
   - Contribution: "contribution.md"
 
 # Copyright
 copyright: Copyright &copy; 2023 DevOps Projects Hub
-
 
 # Theme
 theme:
@@ -53,3 +59,14 @@ extra_css:
 
 plugins:
   - search
+  - include-markdown
+
+markdown_extensions:
+  - markdown_include.include:
+      base_path: docs
+  - pymdownx.snippets:
+      base_path: docs
+      # check_paths: true
+
+  #     base_path: !relative $config_dir 
+
