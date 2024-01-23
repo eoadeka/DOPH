@@ -4,4 +4,19 @@
 
 A curated list of DevOps project ideas spanning across different tools.
 
-## License
+## Contents
+- Ansible
+- Bash
+- Chef
+- Cloud
+- Docker
+- Git
+- Grafana
+- Jenkins
+- Kubernetes
+- Networking
+- Python
+- Prometheus
+- Terraform
+
+## Cloud
